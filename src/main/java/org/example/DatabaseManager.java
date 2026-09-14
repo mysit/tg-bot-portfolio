@@ -8,9 +8,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class DatabaseManager {
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/mymdb?useSSL=false&serverTimezone=UTC";
-    public static final String DB_User = "dmitry";
-    public static final String DB_Password = "123";
+    public static final String DB_URL = "jdbc:mysql://bt5svlnsd8w9cvtv5njc-mysql.services.clever-cloud.com:3306/bt5svlnsd8w9cvtv5njc?useSSL=false&serverTimezone=UTC";
+    public static final String DB_User = "uyhgdwihlyqizep2";
+    public static final String DB_Password = "1RBGrViKsJnCeT1ONF9O";
 
     public static Map<String, String> getAllUsers() {
         // Используем LinkedHashMap, чтобы сохранить порядок вывода из базы
