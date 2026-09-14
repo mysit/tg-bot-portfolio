@@ -21,7 +21,7 @@ public class MyEchoBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "8622777209:AAEukxGrd5Z8K3OERWCA_PqZYCkzg6o_ZTw";
+        return System.getenv("DB_TOKEN");;
     }
 
     @Override
