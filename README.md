@@ -25,4 +25,7 @@
 Бот работает со следующей связью таблиц (Many-to-Many):
 
 `app (users)` ───< `language_app` >─── `languages`
-<img src="./preview.gif" alt="Демо работы бота" width="600"/>
+
+
+
+<img src="./preview.gif" alt="Демо работы бота" width="500"/>
