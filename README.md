@@ -1,7 +1,7 @@
 ## Telegram Bot: User Directory & Tech Stack Explorer
 
 Практический проект Telegram-бота для просмотра базы пользователей и их стека технологий с поддержкой пагинации и динамического обновления интерфейса.
-@goodkodBot (нажмите, чтобы протестировать)
+
 [![Java](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://www.oracle.com/java/)
 [![TelegramBots](https://img.shields.io/badge/TelegramBots-6.x-blue.svg)](https://github.com/rubenlagus/TelegramBots)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-JDBC-blue.svg)](https://www.postgresql.org/)
