@@ -1,4 +1,4 @@
-##Telegram Bot: User Directory & Tech Stack Explorer
+## Telegram Bot: User Directory & Tech Stack Explorer
 
 Практический проект Telegram-бота для просмотра базы пользователей и их стека технологий с поддержкой пагинации и динамического обновления интерфейса.
 
