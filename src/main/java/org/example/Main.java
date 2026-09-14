@@ -4,6 +4,10 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
     public static void main(String[] args) {
+        com.sun.net.httpserver.HttpServer server = com.sun.net.httpserver.HttpServer.create(
+                new java.net.InetSocketAddress(Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"))), 0
+        );
+        server.start();
         try {
             // Инициализируем API
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
