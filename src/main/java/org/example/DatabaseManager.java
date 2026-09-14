@@ -53,8 +53,8 @@ public class DatabaseManager {
 
             while(rs.next()){
                 if(!found){
-                    result.append("имя: ").append(rs.getString("name"))
-                            .append("\nязыки: ");
+                    result.append("Name: ").append(rs.getString("name"))
+                            .append("\nLanguages: ");
                     found = true;
                 }
                 else{
@@ -67,11 +67,11 @@ public class DatabaseManager {
                     result.append(lang);
                 }
             }
-            if(!found)return "такого пользователя не существует";
+            if(!found)return "This user does not exist.";
         }
         catch (SQLException e){
             e.printStackTrace();
-            return "ошибка при работе с базой данных";
+            return "Error!";
         }
         return result.toString();
     }

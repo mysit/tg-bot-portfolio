@@ -34,7 +34,7 @@ public class MyEchoBot extends TelegramLongPollingBot {
             if (messageText.equals("/start")) {
                 SendMessage message = new SendMessage();
                 message.setChatId(String.valueOf(chatId));
-                message.setText("выберите пользователя:");
+                message.setText("Select a user:");
 
                 // cобираем клавиатуру для самой первой страницы
                 InlineKeyboardMarkup markupInline = buildKeyboardForPage(0);
@@ -60,7 +60,7 @@ public class MyEchoBot extends TelegramLongPollingBot {
                 editMessage.setChatId(String.valueOf(chatId));
                 editMessage.setMessageId(messageId);
 
-                editMessage.setText("выберите пользователя:");
+                editMessage.setText("Select a user:");
                 editMessage.setReplyMarkup(markupInline);
 
                 try {
@@ -78,7 +78,7 @@ public class MyEchoBot extends TelegramLongPollingBot {
                 List<InlineKeyboardButton> rowInline = new ArrayList<>();
 
                 InlineKeyboardButton back = new InlineKeyboardButton();
-                back.setText("вернуться к поиску");
+                back.setText("Return to search");
                 back.setCallbackData("page_0");
 
                 rowInline.add(back);

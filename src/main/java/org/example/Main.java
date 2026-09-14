@@ -11,7 +11,8 @@ public class Main {
             // Регистрируем нашего бота
             botsApi.registerBot(new MyEchoBot());
 
-            System.out.println("Бот успешно запущен и готов к работе!");
+            System.out.println("The bot has been successfully launched and is ready to operate!\n" +
+                    "\n");
         } catch (Exception e) {
             e.printStackTrace();
         }
