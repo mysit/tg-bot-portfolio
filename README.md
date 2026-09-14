@@ -26,5 +26,4 @@
 
 `app (users)` ───< `language_app` >─── `languages`
 
-
-![Демо работы бота](./preview.gif)
+<img src="./preview.gif" alt="Демо работы бота" width="400"/>
